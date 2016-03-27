@@ -4,6 +4,8 @@ A keep it simple stupid client for
 [LegionBoard Heart](https://gitlab.com/legionboard/heart). It is plain
 HTML with pure JavaScript. Nothing more.
 
+You can use it [here](http://legionboard.github.io/kiss/?)!
+
 ## Usage
 
 Pass the following parameters in the URL:
