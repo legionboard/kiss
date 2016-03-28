@@ -3,9 +3,9 @@ var apiRoot = getURLParameter('api').trim();
 var username = getURLParameter('user').trim().toLowerCase();
 var password = getURLParameter('pass').trim();
 // Generate hash for authentication key
-var shaObj = new jsSHA("SHA-256", "TEXT");
+var shaObj = new jsSHA('SHA-256', 'TEXT');
 shaObj.update(username + '//' + password);
-var hash = shaObj.getHash("HEX");
+var hash = shaObj.getHash('HEX');
 // Array containing teachers
 var teachers = new Array();
 // Request teachers
