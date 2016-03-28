@@ -10,7 +10,7 @@ var hash = shaObj.getHash('HEX');
 var teachers = new Array();
 // Request teachers
 var requestTeachers = new XMLHttpRequest();
-requestTeachers.open('GET', apiRoot + '/teachers?k=' + hash, true);
+requestTeachers.open('GET', apiRoot + '/teachers?k=' + hash + '&_=' + new Date().getTime(), true);
 requestTeachers.onload = function() {
 	if (this.status >= 200 && this.status < 400) {
 		var data = JSON.parse(this.response);
@@ -30,7 +30,7 @@ requestTeachers.send();
 // Request changes
 function getChanges() {
 	var requestChanges = new XMLHttpRequest();
-	requestChanges.open('GET', apiRoot + '/changes?startBy=now&endBy=i1w&k=' + hash, true);
+	requestChanges.open('GET', apiRoot + '/changes?startBy=now&endBy=i1w&k=' + hash + '&_=' + new Date().getTime(), true);
 	requestChanges.onload = function() {
 		if (this.status >= 200 && this.status < 400) {
 			var data = JSON.parse(this.response);
