@@ -47,11 +47,25 @@ function getChanges() {
 				if (data[i].coveringTeacher != 0) {
 					coveringTeacher = teachers[data[i].coveringTeacher];
 				}
+				var type;
+				switch (data[i].type) {
+					case '0':
+						type = 'Cancellation';
+						break;
+					case '1':
+						type = 'Cover';
+						break;
+					case '2':
+						type = 'Information';
+						break;
+					default:
+						type = 'Someone hijacked the server!'
+				}
 				output = ((output != null) ? output : '') +
 					teacher + '<br />' +
 					data[i].startBy + '<br />' +
 					data[i].endBy + '<br />' +
-					data[i].type + '<br />' +
+					type + '<br />' +
 					data[i].text + '<br />' +
 					coveringTeacher + '<br />' +
 					'<p>-/-</p>';
