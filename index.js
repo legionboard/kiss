@@ -62,7 +62,7 @@ function getChanges() {
 						type = 'Someone hijacked the server!'
 				}
 				output = ((output != null) ? output : '') +
-					teacher + '<br />' +
+					'<b>' + teacher + '</b>' + '<br />' +
 					data[i].startBy + '<br />' +
 					data[i].endBy + '<br />' +
 					type + '<br />' +
