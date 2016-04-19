@@ -4,12 +4,12 @@ A keep it simple stupid client for
 [LegionBoard Heart](https://gitlab.com/legionboard/heart). It is plain
 HTML with pure JavaScript. Nothing more.
 
-You can use it [here](http://legionboard.github.io/kiss/?)!
+You can use it [here](https://legionboard.github.io/kiss/?)!
 
 ## Usage
 
 Pass the following parameters in the URL:
-* `api`: URL to LegionBoard Heart instance (e.g. http://example.com/legionboard/heart)
+* `api`: URL to LegionBoard Heart instance (e.g. https://example.com/legionboard/heart)
 * `user`: Username
 * `pass`: Password
 
@@ -25,4 +25,3 @@ Official repository:
 
 Official mirrors (Pull Request are welcome):
 * [GitHub](https://github.com/legionboard/kiss)
-
