@@ -4,7 +4,7 @@ A keep it simple stupid client for
 [LegionBoard Heart](https://gitlab.com/legionboard/heart). It is plain
 HTML with pure JavaScript. Nothing more.
 
-You can use it [here](http://legionboard.org/kiss/?)!
+You can use it [here](https://legionboard.dorfbrunnen.eu/kiss/?)!
 
 ## Usage
 

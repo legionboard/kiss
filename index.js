@@ -127,8 +127,8 @@ function getChanges() {
 					'<p>-/-</p>';
 			}
 			output +=
-				'&copy; 2016 <a href="https://altnico.github.io">Nico Alt</a><br />' + 
-				'<a href="https://gitlab.com/legionboard/kiss" target="_blank">LegionBoard KISS</a> Version <a class="version" href="https://gitlab.com/legionboard/kiss/tags" target="_blank">0.2.1</a>'
+				'&copy; 2016 - 2018 <a href="https://nico.dorfbrunnen.eu">Nico Alt</a><br />' + 
+				'<a href="https://gitlab.com/legionboard/kiss" target="_blank">LegionBoard KISS</a> Version <a class="version" href="https://gitlab.com/legionboard/kiss/tags" target="_blank">0.2.2</a>'
 			document.body.innerHTML = output;
 		}
 		else if (this.status === 404) {
