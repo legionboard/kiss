@@ -1,5 +1,10 @@
 # LegionBoard KISS
 
+**Deprecation notice: As of March 2019,
+LegionBoard is officially declared end of life.
+There won't be any further development and
+schools should not consider start using it.**
+
 A keep it simple stupid client for
 [LegionBoard Heart](https://gitlab.com/legionboard/heart). It is plain
 HTML with pure JavaScript. Nothing more.
